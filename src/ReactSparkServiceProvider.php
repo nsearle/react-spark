@@ -1,4 +1,4 @@
-<?php namespace darrenmerrett\ReactSpark;
+<?php namespace nsearle\ReactSpark;
 
 use Illuminate\Support\ServiceProvider;
 

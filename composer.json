@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "darrenmerrett\\ReactSpark\\": "src/"
+            "nsearle\\ReactSpark\\": "src/"
         }
     }
 }

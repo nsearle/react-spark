@@ -1,6 +1,6 @@
 <?php
 
-namespace darrenmerrett\ReactSpark\app\Console\Commands;
+namespace nsearle\ReactSpark\app\Console\Commands;
 
 use Illuminate\Console\Command;
 
@@ -42,7 +42,7 @@ class build extends Command
 
         $args .= $this->option('production')?' --production':'';
         
-        system("gulp --cwd ".base_path()." --gulpfile=./vendor/darrenmerrett/react-spark/src/gulpfile.js $args\n");
+        system("gulp --cwd ".base_path()." --gulpfile=./vendor/nsearle/react-spark/src/gulpfile.js $args\n");
 
         print "\n";
 

@@ -18,9 +18,9 @@ This extension separates your project into 2 modules. The Spark Core remains as 
 
 ## Installation
 
-Require the darrenmerrett/react-spark package in your composer.json and update your dependencies.
+Require the nsearle/react-spark package in your composer.json and update your dependencies.
 
-	composer require darrenmerrett/react-spark
+	composer require nsearle/react-spark
 
 Install npm modules with dependancies
 
@@ -28,17 +28,17 @@ Install npm modules with dependancies
 
 Add the ReactSpark\ServiceProvider to your config/app.php providers array:
 
-	'darrenmerrett\ReactSpark\ReactSparkServiceProvider'
+	'nsearle\ReactSpark\ReactSparkServiceProvider'
 
 Finally, publish files into resources.
 
-	php artisan vendor:publish --provider="darrenmerrett\ReactSpark\ReactSparkServiceProvider"
+	php artisan vendor:publish --provider="nsearle\ReactSpark\ReactSparkServiceProvider"
 
 ## Upgrading
 
-Update the darrenmerrett/react-spark package.
+Update the nsearle/react-spark package.
 
-	composer update darrenmerrett/react-spark
+	composer update nsearle/react-spark
 
 Then update the npm modules
 

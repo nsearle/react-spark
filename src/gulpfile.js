@@ -60,8 +60,8 @@ elixir(function(mix) {
       .scripts('../../../node_modules/whatwg-fetch/fetch.js', 'public/js/fetch.js')
 
       .browserify([
-        './vendor/darrenmerrett/react-spark/src/resources/assets/js/react-spark/react-spark.js',
-        './vendor/darrenmerrett/react-spark/src/resources/assets/js/react-spark/reactApp.js',
+        './vendor/nsearle/react-spark/src/resources/assets/js/react-spark/react-spark.js',
+        './vendor/nsearle/react-spark/src/resources/assets/js/react-spark/reactApp.js',
       ],
       './public/js/common.js', null,{ paths: 'resources/assets/js'})
 
